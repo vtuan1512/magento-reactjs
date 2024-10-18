@@ -1,0 +1,40 @@
+/* BlogDetails.css */
+
+/* BlogDetails.css */
+
+.blog-details-image {
+    width: 100%; /* Chiều rộng 100% để khớp với thẻ chứa */
+    height: auto; /* Giữ nguyên tỷ lệ ảnh */
+    max-height: 600px; /* Giới hạn chiều cao tối đa */
+    display: block; /* Đảm bảo hình ảnh không bị thụt */
+    object-fit: contain; /* Đảm bảo hiển thị toàn bộ ảnh */
+    background-color: #f8f9fa; /* Màu nền nhạt nếu ảnh nhỏ hơn khung */
+    border-radius: 10px 10px 0 0;
+}
+
+
+/*.card {*/
+/*    border-radius: 15px;*/
+/*    overflow: hidden;*/
+/*    transition: transform 0.2s ease-in-out;*/
+/*}*/
+
+/*.card:hover {*/
+/*    transform: scale(1.02);*/
+/*}*/
+
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-body {
+    padding: 30px;
+}
